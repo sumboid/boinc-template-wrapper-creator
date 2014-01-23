@@ -1,0 +1,6 @@
+<job_desc>
+    <task>
+        <application>worker</application>
+        <command_line>in out</command_line>
+    </task>
+</job_desc>
