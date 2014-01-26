@@ -21,5 +21,5 @@ rm -f  "$project/project.xml"
 rm -f  "$project/config.xml"
 
 cp -r apps templates project.xml "$project"
-cat config.xml | sed "s/example/$projectname/g" > "$project/config.xml"
+cat config.xml | sed "s/example/$projectname/g" | sed "s/HOST_IP/$projecthost/g" > "$project/config.xml"
 echo "Ready!"

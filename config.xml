@@ -14,7 +14,7 @@
       3
     </sched_debug_level>
     <upload_url>
-      http://192.168.0.21/example_cgi/file_upload_handler
+      http://HOST_IP/example_cgi/file_upload_handler
     </upload_url>
     <disable_account_creation>
       0
@@ -23,7 +23,7 @@
       1024
     </uldl_dir_fanout>
     <download_url>
-      http://192.168.0.21/example/download
+      http://HOST_IP/example/download
     </download_url>
     <db_user>
       boincadm
@@ -41,7 +41,7 @@
       3
     </fuh_debug_level>
     <master_url>
-      http://192.168.0.21/example/
+      http://HOST_IP/example/
     </master_url>
     <host>
       debian6
